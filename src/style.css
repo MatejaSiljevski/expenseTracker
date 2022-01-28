@@ -7,35 +7,35 @@
     margin:auto;
     border-radius: 10px;
     padding-top: 1rem;
-  }
-  
-  h4{
+}
+
+h4{
     margin-bottom: 0rem;
     text-transform: uppercase;
-  }
-  
-  .inc-exp-container{
+}
+
+.inc-exp-container{
     display: flex;
     justify-content: space-between;
     border: 1px solid #000;
     margin-left: 2rem;
     margin-right: 2rem;
-  }
-  
-  .inc-exp-container div{
+}
+
+.inc-exp-container div{
     padding:.3rem 3rem;
     width: 30%;
-  }
-  .inc-exp-container div p {
+}
+.inc-exp-container div p {
     margin-top: .3rem;
     font-size: 1.2rem;
-  }
-  
-  .border-line{
+}
+
+.border-line{
     position: relative;
-  }
-  
-  .border-line::after{
+}
+
+.border-line::after{
     content: '';
     display: block;
     position: absolute;
@@ -44,29 +44,27 @@
     height: 80%;
     width: 1px;
     background-color: #000;
-  }
-  
-  .money-plus{
+}
+
+.money-plus{
     color:green;
     font-weight: 800;
-    width: 100%;
-    word-wrap: break-word
-  }
-  
-  .money-minus{
+}
+
+.money-minus{
     color:red;
     font-weight: 800;
-  }
-  
-  
-  h3{
+}
+
+
+h3{
     position: relative;
     padding-bottom: .5rem;
     margin-top: 2rem;
     margin-bottom: 0rem;
-  }
-  
-  h3:after{
+}
+
+h3:after{
     content: '';
     display: block;
     position: absolute;
@@ -75,16 +73,16 @@
     width:80%;
     height: .5px;
     background-color: #000;
-  }
-  
-  ul {
+}
+
+ul {
     margin-top: 1rem;
     margin-left: 2rem;
     margin-right: 2rem;
     padding-left: 0;
-  }
-  
-  ul li{
+}
+
+ul li{
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -92,20 +90,20 @@
     border:.8px solid rgb(99, 99, 99);
     border-radius: 10px 0 0 10px;
     margin-bottom: .5rem;
-  }
-  
-  .sum{
+}
+
+.sum{
     padding:.5rem 1rem;
-  }
-  
-  ul li:hover button{
+}
+
+ul li:hover button{
     opacity: 1;
     transition: .3s all ease;
-  }
-  .minus{
+}
+.minus{
     position: relative;
-  }
-  .minus:after{
+}
+.minus:after{
     content: '';
     position:absolute;
     height: 100%;
@@ -113,11 +111,11 @@
     background-color: red;
     top:0;
     right: 0;
-  }
-  .plus{
+}
+.plus{
     position: relative;
-  }
-  .plus:after{
+}
+.plus:after{
     content: '';
     position:absolute;
     height: 100%;
@@ -125,15 +123,15 @@
     background-color: green;
     top:0;
     right: 0;
-  }
-  
-  li:hover button{
+}
+
+li:hover button{
     opacity: 1;
     transition: .3s all ease;
     cursor:pointer;
-  }
-  
-  li button {
+}
+
+li button {
     position: absolute;
     left:-1.8rem;
     font-size: 1.4rem;
@@ -142,36 +140,36 @@
     background-color: transparent;
     opacity: 0;
     color: red;
-  }
-  ul li .text{
+}
+ul li .text{
     padding-left:1rem;
-  }
-  
-  
-  
-  form{
+}
+
+
+
+form{
     display: flex;
     flex-direction: column;
     text-align: left;
     margin:1.5rem 2rem 2rem 2rem;
-  }
-  
-  form label{
+}
+
+form label{
     display: block;
     font-weight:600;
     margin-bottom: .5rem;
-  }
-  
-  form input{
+}
+
+form input{
     margin-bottom: .5rem;
     background-color: rgb(233, 233, 233);
     width:95%;
     border:none;
     padding:.5rem 0 .5rem 1rem;
     font-weight: 600;
-  }
-  
-  .btn{
+}
+
+.btn{
     color:#fff;
     margin-top: 1.5rem;
     background-color: rgb(233, 233, 233);
@@ -179,14 +177,13 @@
     padding:.5rem 0 .5rem 1rem;
     font-weight: 600;
     background-color:#7d74a5;
-  }
-  
-  .btn:hover{
+}
+
+.btn:hover{
     cursor: pointer;
     background-color: green;
     transition:.5s all ease
-  }
-  
-  
-  
-  
+}
+
+
+
